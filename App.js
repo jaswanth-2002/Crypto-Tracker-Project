@@ -24,15 +24,15 @@ const fetchPrice= async(ctype)=>{
         <td>Property</td>
         <td>Value</td>
     </tr>
-    <tr> 
+    <tr style='background-color:white; color:black;'> 
         <td>${ctype}</td>
         <td>${price} - INR</td>
     </tr>
-    <tr> 
+    <tr style='background-color:white; color:black;'> 
         <td>Volume</td>
         <td>${volume}</td>
     </tr>
-    <tr> 
+    <tr style='background-color:white; color:black;'> 
         <td>Change</td>
         <td>${Change}</td>
     </tr>`;
